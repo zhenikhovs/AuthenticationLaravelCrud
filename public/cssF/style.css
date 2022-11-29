@@ -1,0 +1,36 @@
+
+.resume_btns{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.errors{
+    color: red;
+    background: none;
+    border: 1px dotted red;
+}
+
+.add_btn{
+    padding: 10px;
+    border-color: hsl(100, 50%, 50%);
+    color: white;
+    background-color: hsl(100, 50%, 50%);
+}
+.update_btn{
+    padding: 10px;
+    border-color: hsl(150, 50%, 50%);
+    color: white;
+    background-color: hsl(150, 50%, 50%);
+}
+.remove_btn{
+    padding: 10px;
+    border-color: hsl(0, 50%, 50%);
+    color: white;
+    background-color: hsl(0, 50%, 50%);
+
+}
+
+.input{
+    border: 1px solid black;
+}
